@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Happy Birthday RK</title>
+
+<style>
+body{
+margin:0;
+padding:0;
+display:flex;
+justify-content:center;
+align-items:center;
+height:100vh;
+background:black;
+font-family:Arial,sans-serif;
+color:white;
+overflow:hidden;
+}
+
+.container{
+text-align:center;
+}
+
+h1{
+font-size:40px;
+animation:glow 2s infinite alternate;
+}
+
+p{
+font-size:18px;
+color:#ddd;
+}
+
+button{
+margin-top:25px;
+padding:15px 35px;
+font-size:18px;
+border:none;
+border-radius:30px;
+background:gold;
+cursor:pointer;
+font-weight:bold;
+}
+
+@keyframes glow{
+from{
+text-shadow:0 0 10px gold;
+}
+to{
+text-shadow:0 0 30px gold,0 0 60px orange;
+}
+}
+</style>
+
+</head>
+
+<body>
+
+<div class="container">
+<h1>🎉 Happy Birthday RK 🎉</h1>
+
+<p>
+Today is all about celebrating YOU! 🎉<br><br>
+I made something special just for you.<br>
+Tap the button below and enjoy your birthday surprise. ❤️
+</p>
+
+<button onclick="window.location.href='card.html'">
+Tap to Continue
+</button>
+
+</div>
+
+</body>
+</html>
